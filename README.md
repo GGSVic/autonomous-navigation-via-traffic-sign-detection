@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository presents the implementation and evolution of an autonomous mobile robotics stack designed for a scaled road environment. Originally conceived during my 6th-semester robotics implementation, this version represents a significant leap in algorithmic robustness, software architecture, and technical documentation.
+This repository presents the implementation and evolution of an autonomous mobile robotics stack designed for a scaled road environment. Originally conceived during my 6th-semester robotics implementation, this version represents a significant leap in algorithmic robustness, software architecture, and technical documentation (Check the original implementation in the **legacy** branch).
 
 The project features a Puzzlebot platform navigating a track with lanes/lines, intersections, and regulatory traffic signs. By fusing traditional computer vision techniques with deep learning (YOLOv8), the robot is capable of real-time semantic scene interpretation—allowing it to follow lines, respect traffic lights, and execute intelligent maneuvers at intersections without human intervention.
 
