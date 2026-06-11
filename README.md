@@ -62,7 +62,7 @@ This guide provides the necessary steps to set up the Puzzlebot simulation and n
 To ensure all components, including controllers and simulation assets, are present, clone the repository with its submodules:
 
 ```bash
-git clone --recurse-submodules https://github.com/GGSVic/Autonomous-Navigation-Via-Traffic-Sign-Detection.git puzzlebot_nav_stack
+git clone --recurse-submodules https://github.com/GGSVic/autonomous-navigation-via-traffic-sign-detection.git puzzlebot_nav_stack
 cd puzzlebot_nav_stack
 ```
 
