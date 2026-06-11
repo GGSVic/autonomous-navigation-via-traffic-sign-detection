@@ -1,0 +1,30 @@
+<package format="3">
+  <name>yolo_signals</name>
+
+  <version>1.0.0</version>
+
+  <description>
+    YOLOv8-based traffic sign detection node for autonomous navigation experiments.
+  </description>
+
+  <maintainer email="victor@example.todo">Victor Morales</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>yolo_msg</depend>
+
+  <exec_depend>ros2launch</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
